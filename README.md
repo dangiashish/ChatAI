@@ -9,8 +9,10 @@ To use this app feature, you need to create an account on openAI and generate yo
 - Material 3 UI design patterns
 - Based on Kotlin & XML
 
-
 ### 🔖 Note for developers :
 If any enthusiastic developer want to make contribution in this project, you can PR this repository.
+
+### 🔖 Find the visuals :
+<a href="https://www.linkedin.com/posts/ashishkumardangi_android-folks-openai-activity-7180858918603022337-LZwz?utm_source=share&utm_medium=member_desktop">LinkedIn post </a>
 
 ## Thank you

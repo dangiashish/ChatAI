@@ -20,15 +20,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        val propertiesFile = rootProject.file("local.properties")
-        val properties = Properties()
-        properties.load(FileInputStream(propertiesFile))
-
-        val apiKey = properties.getProperty("api.key")
-        if (apiKey == null || apiKey.isEmpty()) {
-            throw GradleException("API key is missing or empty. Please define 'api.key' in local.properties.")
-        }
-        buildConfigField("String", "CHAT_GPT_KEY", "\"$apiKey\"")
     }
 
     buildFeatures {

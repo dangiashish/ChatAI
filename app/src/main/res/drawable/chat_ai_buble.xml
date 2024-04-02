@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Foreground Layer -->
+    <item android:right="0dp">
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp" />
+                <solid android:color="?attr/colorTertiaryContainer" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:left="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorTertiaryContainer" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</layer-list>

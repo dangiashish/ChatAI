@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- GREEN -->
+
+    <color name="green_primary_90">#B8F397</color>
+    <color name="green_primary_80">#9CD67D</color>
+    <color name="green_primary_40">#386A20</color>
+    <color name="green_primary_30">#205107</color>
+    <color name="green_primary_20">#0C3900</color>
+    <color name="green_primary_10">#042100</color>
+
+    <color name="green_secondary_90">#D9E7CB</color>
+    <color name="green_secondary_80">#BDCBB0</color>
+    <color name="green_secondary_40">#55624C</color>
+    <color name="green_secondary_30">#3E4A36</color>
+    <color name="green_secondary_20">#273420</color>
+    <color name="green_secondary_10">#131F0D</color>
+
+    <color name="green_tertiary_90">#BBEBEB</color>
+    <color name="green_tertiary_80">#A0CFCF</color>
+    <color name="green_tertiary_40">#386667</color>
+    <color name="green_tertiary_30">#1E4E4E</color>
+    <color name="green_tertiary_20">#003738</color>
+    <color name="green_tertiary_10">#002021</color>
+
+    <color name="green_error_90">#ffdbcd</color>
+    <color name="green_error_80">#ffb598</color>
+    <color name="green_error_40">#a73900</color>
+    <color name="green_error_30">#812900</color>
+    <color name="green_error_20">#5c1a00</color>
+    <color name="green_error_10">#380d00</color>
+
+    <color name="green_neutral_99">#FDFDF6</color>
+    <color name="green_neutral_90">#E3E3DC</color>
+    <color name="green_neutral_20">#2F312C</color>
+    <color name="green_neutral_10">#1A1C18</color>
+
+    <color name="green_neutral_variant_90">#DFE4D6</color>
+    <color name="green_neutral_variant_80">#C4C8BB</color>
+    <color name="green_neutral_variant_60">#8D9286</color>
+    <color name="green_neutral_variant_50">#74796E</color>
+    <color name="green_neutral_variant_30">#43493E</color>
+
+</resources>

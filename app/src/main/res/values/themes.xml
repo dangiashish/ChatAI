@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChatGPT" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorPrimaryDark">?android:attr/colorBackground</item>
+        <!--        <item name="android:navigationBarColor">?android:attr/colorBackground</item>-->
+
+        <item name="android:statusBarColor">?attr/colorSurfaceVariant</item>
+        <item name="android:colorControlNormal">?attr/colorOnBackground</item>
+        <item name="android:colorControlActivated">?attr/colorSecondary</item>
+        <item name="android:colorEdgeEffect">?attr/colorSecondary</item>
+        <item name="android:fontFamily">@font/sans_medium_custom</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.ChatGPT" parent="Base.Theme.ChatGPT" />
+
+    <style name="Theme.ChatGPT.Green" parent="Theme.ChatGPT">
+        <item name="colorPrimary">@color/green_primary_40</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/green_primary_90</item>
+        <item name="colorOnPrimaryContainer">@color/green_primary_10</item>
+        <item name="colorPrimaryInverse">@color/green_primary_80</item>
+
+        <item name="colorSecondary">@color/green_secondary_40</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/green_secondary_90</item>
+        <item name="colorOnSecondaryContainer">@color/green_secondary_10</item>
+
+        <item name="colorTertiary">@color/green_tertiary_40</item>
+        <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/green_tertiary_90</item>
+        <item name="colorOnTertiaryContainer">@color/green_tertiary_10</item>
+
+        <item name="colorError">@color/green_error_40</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">@color/green_error_90</item>
+        <item name="colorOnErrorContainer">@color/green_error_10</item>
+
+        <item name="android:colorBackground">@color/green_neutral_99</item>
+        <item name="colorOnBackground">@color/green_neutral_10</item>
+
+        <item name="colorSurface">@color/green_neutral_99</item>
+        <item name="colorOnSurface">@color/green_neutral_10</item>
+        <item name="colorSurfaceInverse">@color/green_neutral_20</item>
+        <item name="colorOnSurfaceInverse">@color/green_neutral_90</item>
+
+        <item name="colorSurfaceVariant">@color/green_neutral_variant_90</item>
+        <item name="colorOnSurfaceVariant">@color/green_neutral_variant_30</item>
+
+        <item name="colorOutline">@color/green_neutral_variant_50</item>
+        <item name="colorOutlineVariant">@color/green_neutral_variant_80</item>
+    </style>
+
+</resources>

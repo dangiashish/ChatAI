@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeOverlay.ChatGPT.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:backgroundDimAmount">0.7</item>
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+    <!--    Material Toolbar-->
+
+    <style name="Widget.ChatGPT.Material.Toolbar" parent="Base.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/toolbar_background</item>
+
+    </style>
+</resources>
